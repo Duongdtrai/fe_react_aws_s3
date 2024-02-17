@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <p>{`API Key: ${process.env.REACT_APP_API_KEY}`}</p>
       </header>
     </div>
   );
